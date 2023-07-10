@@ -90,4 +90,98 @@ boxes .box > div:nth-child(2) {
     --translateZ: calc(var(--size) * 3 * -1);
   }
 
-  
+  @-webkit-keyframes box1 {
+    0%, 50% {
+      transform: translate(100%, 0);
+    }
+
+    100% {
+        transform: translate(200%, 0);
+      }
+    }
+    
+    @keyframes box1 {
+      0%, 50% {
+        transform: translate(100%, 0);
+      }
+    
+      100% {
+        transform: translate(200%, 0);
+      }
+    }
+    
+    @-webkit-keyframes box2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+    
+      50% {
+        transform: translate(0, 0);
+      }
+    
+      100% {
+        transform: translate(100%, 0);
+      }
+    }
+    
+    @keyframes box2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+    
+      50% {
+        transform: translate(0, 0);
+      }
+    
+      100% {
+        transform: translate(100%, 0);
+      }
+    }
+    
+    @-webkit-keyframes box3 {
+      0%, 50% {
+        transform: translate(100%, 100%);
+      }
+    
+      100% {
+        transform: translate(0, 100%);
+      }
+    }
+    
+    @keyframes box3 {
+      0%, 50% {
+        transform: translate(100%, 100%);
+      }
+    
+      100% {
+        transform: translate(0, 100%);
+      }
+    }
+    
+    @-webkit-keyframes box4 {
+      0% {
+        transform: translate(200%, 0);
+      }
+    
+      50% {
+        transform: translate(200%, 100%);
+      }
+    
+      100% {
+        transform: translate(100%, 100%);
+      }
+    }
+    
+    @keyframes box4 {
+      0% {
+        transform: translate(200%, 0);
+      }
+    
+      50% {
+        transform: translate(200%, 100%);
+      }
+    
+      100% {
+        transform: translate(100%, 100%);
+      }
+    }
